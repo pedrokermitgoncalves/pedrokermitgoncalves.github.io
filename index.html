@@ -1,59 +1,160 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Pedro Gonçalves</title>
-    <script src="https://kit.fontawesome.com/5968080efd.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/5968080efd.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,600&family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+      defer
+    />
     <style media="screen">
-      html { font-size: 18px; }
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+
+      html {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url('assets/cover.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      body {
+        padding: 100px;
+      }
 
       a {
-        color:#000;
+        color: #000;
         text-decoration: none;
       }
 
       a > span {
-          text-decoration: underline;
+        text-decoration: underline;
       }
 
       a:hover {
-        background:#000;
-        color:#fff;
+        background: #000;
+        color: #fff;
       }
 
-      a:hover > span{
+      a:hover > span {
         text-decoration: none;
       }
 
-      .construction{
+      .construction {
         position: absolute;
-        bottom: 20px;
+        bottom: 10px;
         left: 50%;
         transform: translateX(-50%);
         opacity: 0.6;
+        color: #fff;
       }
 
       .sm-links {
         list-style: none;
         padding: 0;
+        line-height: 1.5;
       }
+
+      /* .logo {
+        padding: 15px 20px 15px 40px;
+        display: inline-block;
+        position: relative;
+        font-family: 'Ubuntu Mono', monospace;
+        line-height: 1.2;
+        color: #7f848e;
+      }
+
+      .logo li{
+        padding-left: 10px;
+   
+      }
+
+
+      .logo li div{
+        color: #ef596f;
+      }
+
+      .logo li span{
+        color: #aab1be;
+      }
+
+      .logo::before{
+        content: "";
+        height: 100%;
+        top: 0;
+        left:35px;
+        position: absolute;
+        border-left: 1px solid #7f848e;
+      } */
     </style>
   </head>
   <body>
-    <h1>Hi! I am Pedro Gonçalves.</h1>
-    <h2><em>Senior Frontend deleveloper and Tech Lead @ <a href="https://www.talkdesk.com/" target="_blank"><span>Talkdesk</span></a></em></h2>
 
+      <!-- <ol class="logo">
+        <li><div><span>&lt;</span>pedro<span>&gt;</span></div></li>
+        <li><div><span>&lt;/</span>goncalves<span>&gt;</span></div></li>
+      </ol> -->
+   
+    <h1>Hi! I am Pedro Gonçalves.</h1>
+    <h2>
+      <em>
+        Senior Frontend deleveloper and Tech Lead @
+        <a href="https://www.talkdesk.com/" target="_blank">
+          <span>Talkdesk</span>
+        </a>
+      </em>
+    </h2>
 
     <p><strong>Talk to me:</strong></p>
 
     <ul class="sm-links">
-      <li><a href="https://github.com/pedrokermitgoncalves" target="_blank"><i class="fab fa-github-square"></i> <span>@pedrokermitgoncalves</span></a></li>
-      <li><a href="https://twitter.com/pedrorgoncalves" target="_blank"><i class="fab fa-twitter-square"></i> <span>@pedrorgoncalves</span></a></li>
-      <li><a href="https://www.linkedin.com/in/pedro-gon%C3%A7alves-6b326b93/" target="_blank"><i class="fab fa-linkedin"></i> <span>Linkedin</span></a></li>
-      <li><a href="https://www.linkedin.com/in/pedro-gon%C3%A7alves-6b326b93/" target="_blank"><i class="fab fa-linkedin"></i> <span>Linkedin</span></a></li>
+      <li>
+        <a href="https://github.com/pedrokermitgoncalves" target="_blank">
+          <i class="fab fa-github-square"></i>
+          <span>@pedrokermitgoncalves</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/pedrorgoncalves" target="_blank">
+          <i class="fab fa-twitter-square"></i>
+          <span>@pedrorgoncalves</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/pedro-gon%C3%A7alves-6b326b93/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i> <span>Linkedin</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:pribeiro.goncalves@gmail.com" target="_blank">
+          <i class="fas fa-envelope-square"></i>
+          <span>pribeiro.goncalves@gmail.com</span>
+        </a>
+      </li>
     </ul>
 
-    <p class="construction"><i class="fas fa-exclamation-triangle"></i> <em>This website is under construction</em></p>
+    <p class="construction">
+      <i class="fas fa-exclamation-triangle"></i>
+      <em>This website is under construction</em>
+    </p>
+
+    <pedro>
+    </goncalves>
+
+
 
   </body>
 </html>
