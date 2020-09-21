@@ -2,7 +2,7 @@
   "name": "pedrokermitgoncalves.github.io",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://pedrokermitgoncalves.github.io/new-website",
+  "homepage": "https://pedrokermitgoncalves.github.io",
   "repository": "https://github.com/pedrokermitgoncalves/pedrokermitgoncalves.github.io.git",
   "license": "MIT",
   "author": "Pedro Gonçalves <pribeiro.goncalves@gmail.com>",
@@ -11,7 +11,7 @@
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
