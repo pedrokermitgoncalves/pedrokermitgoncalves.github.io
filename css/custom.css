@@ -177,9 +177,9 @@ a:hover {
 }
 
 .work .work-list li.timeline {
-  line-height: 32px;
   position: relative;
   padding-left: 24px;
+  margin-top: 16px;
 }
 
 .work .work-list li:nth-child(2) {
@@ -189,25 +189,28 @@ a:hover {
 .work .work-list li.timeline::before {
   display: block;
   position: absolute;
-  top: 1px;
+  top: 50%;
   left: 0;
-  content: "•";
-  color: #4a4d63;
-  font-size: 26px;
-  line-height: 100%;
-  margin-right: 8px;
+  transform: translateY(-50%);
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #8c8c8c;
+  border: 1px solid #4a4d63;
+  box-shadow: 1px 1px 3px #4a4d63;
+  border-radius: 50%;
 }
 
 .work .work-list li.timeline:not(:last-child)::after {
   content: "";
   position: absolute;
-  top: 11px;
-  left: 7px;
-  bottom: -11px;
-  border: 1px solid #4a4d63;
+  top: 18px;
+  left: 6px;
+  bottom: -22px;
+  border-left: 1px solid #4a4d63;
 }
 
-.work .work-list li.timeline::after .work .work-list li a {
+.work .work-list li a {
   padding-bottom: 5px;
   font-size: 1.1875em;
   font-weight: 700;
