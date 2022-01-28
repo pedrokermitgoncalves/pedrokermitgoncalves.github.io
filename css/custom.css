@@ -48,6 +48,7 @@ a:hover {
     text-align: center;
   }
 }
+
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
@@ -164,7 +165,8 @@ a:hover {
   opacity: 0.05;
 }
 .intro h1 span {
-  font-size: 47px;
+  font-size: 46px;
+  white-space: nowrap;
 }
 
 .work .work-list {
