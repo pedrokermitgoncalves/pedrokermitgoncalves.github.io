@@ -1,7 +1,7 @@
-/*
- *  Draco HTML Template by @flamekaizar
- *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
- */
+html,
+body {
+  min-width: 370px;
+}
 h1,
 h2,
 h3,
@@ -132,7 +132,7 @@ a:hover {
 }
 
 .intro {
-  padding: 95px 0px 50px 0px;
+  padding: 95px 0 50px 0;
   margin-bottom: 60px;
   overflow-x: hidden;
   background-color: #4a4d63;
@@ -150,7 +150,7 @@ a:hover {
   color: #f2f2f2;
 }
 .intro .wrap {
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 .intro h1:before {
   content: "PEDRO";
@@ -168,7 +168,7 @@ a:hover {
 }
 
 .work .work-list {
-  margin-left: 0px;
+  margin-left: 0;
 }
 .work .work-list li {
   list-style: none;
@@ -222,7 +222,7 @@ a:hover {
 }
 
 .award .award-list {
-  margin-left: 0px;
+  margin-left: 0;
 }
 .award .award-list li:first-child {
   font-size: 0.9375em;
@@ -230,7 +230,7 @@ a:hover {
 }
 
 .skills .skill-list {
-  margin-left: 0px;
+  margin-left: 0;
 }
 .skills .skill-list li:first-child {
   font-size: 0.9375em;
@@ -241,11 +241,11 @@ a:hover {
   background: url(../img/niki.jpg);
   background-position: 50% 50%;
   background-size: cover;
-  padding: 100px 0px;
+  padding: 100px 0;
   margin-top: 120px;
 }
 .quote h1 {
-  margin: 100px 0px;
+  margin: 100px 0;
   padding: 40px 20px;
   border: 5px solid #fff;
   color: #fff;
@@ -255,10 +255,12 @@ a:hover {
 }
 
 footer {
-  padding: 50px 0px 0px 0px;
+  padding: 50px 0 0 0;
 }
 footer .social li {
   display: inline;
+}
+footer .social li:not(:first-child) {
   margin-left: 20px;
 }
 footer .social li a {
